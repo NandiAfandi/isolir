@@ -4,72 +4,98 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Akses Internet Terisolir</title>
+<title>Layanan Internet Terisolir</title>
 
 <style>
+
 body{
     margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
-    color:white;
+    font-family:Segoe UI, Arial, sans-serif;
+    background:#f4f6f8;
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
 }
 
-.box{
-    background:rgba(0,0,0,0.6);
+.card{
+    background:white;
     padding:40px;
     border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
     text-align:center;
     width:90%;
-    max-width:400px;
+    max-width:420px;
 }
 
-h1{
-    color:#ff4d4d;
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    color:#333;
+    margin-bottom:10px;
+}
+
+.status{
+    font-size:18px;
+    color:#e53935;
+    margin-bottom:15px;
+}
+
+.desc{
+    color:#555;
+    line-height:1.6;
 }
 
 .btn{
     display:inline-block;
-    margin-top:20px;
+    margin-top:25px;
     padding:12px 25px;
-    background:#00c853;
+    background:#2d89ef;
     color:white;
     text-decoration:none;
     border-radius:6px;
-    font-weight:bold;
+    font-weight:600;
 }
 
 .btn:hover{
-    background:#00a844;
+    background:#1b6fd8;
 }
+
+.footer{
+    margin-top:25px;
+    font-size:13px;
+    color:#999;
+}
+
 </style>
 </head>
 
 <body>
 
-<div class="box">
-<h1>⚠ AKSES INTERNET DIISOLIR</h1>
+<div class="card">
 
-<p>
-Pelanggan Yth,<br><br>
-Layanan internet Anda saat ini <b>dinonaktifkan sementara</b>
-karena tagihan belum dibayarkan.
-</p>
+<div class="logo">
+LJNETID
+</div>
 
-<p>
-Silakan lakukan pembayaran agar layanan kembali aktif.
-</p>
+<div class="status">
+⚠ Layanan Internet Sementara Dinonaktifkan
+</div>
+
+<div class="desc">
+Akses internet Anda saat ini terisolir karena
+tagihan layanan belum dilakukan pembayaran.<br><br>
+Silakan melakukan pembayaran agar layanan
+kembali aktif secara otomatis.
+</div>
 
 <a class="btn" href="https://wa.me/6288223618509">
 Hubungi Admin
 </a>
 
-<p style="margin-top:20px;font-size:13px;">
+<div class="footer">
 Terima kasih telah menggunakan layanan kami
-</p>
+</div>
 
 </div>
 
